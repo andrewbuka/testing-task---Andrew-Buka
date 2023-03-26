@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TestingTask-AndrewBuka</title>
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body class="body scroll">
+  <div class="loader-content">
+    <div class="loader">
+      <div class="circle"></div>
+    </div>
+  </div>
+
+  <button class="to-top ">
+    <img src="assets/images/to-top.png" alt="to top arrow" class="to-top-img">
+  </button>
+
+<header class="header" id="header">
+  <div class="header-buttons">
+    <div class="header-buttons-limitter">
+      <a href="index.html" class="infiniti-link">
+        <button class="button-infiniti active-infiniti">Infiniti</button>
+      </a>
+  
+      <a href="pagination.html " class="pagination-link">
+        <button class="button-pagination">Pagination</button>
+      </a>
+    </div>  
+  </div>
+</header>
+
+<main class="main">
+  <div class="container">
+    <div class="container-limiter" id="cards">      
+      <div class="modal-back">
+        <button type="button" class="close-btn">X</button>
+        <div class="outer-container">
+          <div class="left-arrow-container">
+            <img src="assets/images/left-arrow.png" alt="left arrow" class="left-arrow">
+          </div>
+          <div class="right-arrow-container">
+            <img src="assets/images/right-arrow.png" alt="right arrow" class="right-arrow">
+          </div>
+          
+          <div class="modal-window">
+            <div class="modal-window-image-container">
+              <div class="image-back"></div>
+            </div>
+        
+            <div class="common-describing-container">
+              <div class="left-describe-container">
+                <div class="character-container">
+                  <h4 class="position">Name:</h4>
+                  <div class="describe-character name"></div>
+                </div>
+                <div class="character-container">
+                  <h4 class="position">Status:</h4>
+                  <div class="describe-character status"></div>
+                </div>
+                <div class="character-container">
+                  <h4 class="position">Species:</h4>
+                  <div class="describe-character species"></div>
+                </div>
+              </div>
+              <div class="right-describe-container">
+                <div class="character-container">
+                  <h4 class="position">Origin:</h4>
+                  <div class="describe-character origin"></div>
+                </div>
+                <div class="character-container">
+                  <h4 class="position">Location:</h4>
+                  <div class="describe-character location"></div>
+                </div>
+                <div class="character-container">
+                  <h4 class="position">Gender:</h4>
+                  <div class="describe-character gender"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <script src="code/dom-builder-modal-windows.js" defer></script>
+  <script src="code/dom-buildder-cards.js" defer></script>  
+  <script src="code/modal-window.js" defer></script>
+  <script src="code/cards.js" defer></script>
+  <script src="code/scroll.js" defer></script>
+  <script src="index.js" defer></script>
+</body>
+</html>
